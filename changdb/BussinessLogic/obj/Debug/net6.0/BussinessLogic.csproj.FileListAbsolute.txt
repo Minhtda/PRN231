@@ -1,0 +1,15 @@
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.AssemblyReference.cache
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.AssemblyInfoInputs.cache
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.AssemblyInfo.cs
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.CoreCompileInputs.cache
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\bin\Debug\net6.0\BussinessLogic.deps.json
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\bin\Debug\net6.0\BussinessLogic.dll
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\bin\Debug\net6.0\BussinessLogic.pdb
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\bin\Debug\net6.0\Enities.dll
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\bin\Debug\net6.0\Enities.pdb
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.csproj.CopyComplete
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.dll
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\refint\BussinessLogic.dll
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\BussinessLogic.pdb
+D:\FALL2023\prn231\changdbletgooo\BussinessLogic\obj\Debug\net6.0\ref\BussinessLogic.dll

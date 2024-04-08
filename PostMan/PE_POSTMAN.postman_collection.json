@@ -1,0 +1,276 @@
+{
+	"info": {
+		"_postman_id": "f75c1359-ff60-40ae-a662-8c50699b1203",
+		"name": "PE_POSTMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28013623"
+	},
+	"item": [
+		{
+			"name": "login Successful with admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/users/login?Email=admin@SilverJewelry.com.uk&password=@5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"users",
+						"login"
+					],
+					"query": [
+						{
+							"key": "Email",
+							"value": "admin@SilverJewelry.com.uk"
+						},
+						{
+							"key": "password",
+							"value": "@5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Fail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/users/login?Email=admin@SilverJewelry.com.uk&password=@",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"users",
+						"login"
+					],
+					"query": [
+						{
+							"key": "Email",
+							"value": "admin@SilverJewelry.com.uk"
+						},
+						{
+							"key": "password",
+							"value": "@"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Successful with staff",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/users/login?Email=staff@SilverJewelry.com.uk&password=@5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"users",
+						"login"
+					],
+					"query": [
+						{
+							"key": "Email",
+							"value": "staff@SilverJewelry.com.uk"
+						},
+						{
+							"key": "password",
+							"value": "@5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Jewelry by Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU1Iiwicm9sZSI6IjEiLCJuYmYiOjE2OTk1MzM0NzksImV4cCI6MTY5OTUzNDA3OSwiaWF0IjoxNjk5NTMzNDc5fQ.2Zmez15d6h8zXADQM4QOFup1yL_u2_4uUtehVW7a35s",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/jewelry/SBD2HE92287.600",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"jewelry",
+						"SBD2HE92287.600"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Jewelry",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU2Iiwicm9sZSI6IjIiLCJuYmYiOjE2OTk1MzM1NTYsImV4cCI6MTY5OTUzNDE1NiwiaWF0IjoxNjk5NTMzNTU2fQ.TSLdkXpNVHIEmo6hbZy5rGCdgij_0iE064ofqInKxto",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/jewelry/search?SilverJewelryName=Silver&metalWeight=2\n",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"jewelry",
+						"search"
+					],
+					"query": [
+						{
+							"key": "SilverJewelryName",
+							"value": "Silver"
+						},
+						{
+							"key": "metalWeight",
+							"value": "2\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU1Iiwicm9sZSI6IjEiLCJuYmYiOjE2OTk1MzI3NDUsImV4cCI6MTY5OTUzMzM0NSwiaWF0IjoxNjk5NTMyNzQ1fQ.Qw3-petJjQvMVZybPuxHwxaZd093Fv-Gzdi7O-l4T_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/jewelry/SND2KE11375.100",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"jewelry",
+						"SND2KE11375.100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU1Iiwicm9sZSI6IjEiLCJuYmYiOjE2OTk1MzI3NDUsImV4cCI6MTY5OTUzMzM0NSwiaWF0IjoxNjk5NTMyNzQ1fQ.Qw3-petJjQvMVZybPuxHwxaZd093Fv-Gzdi7O-l4T_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7026/api/jewelry/SND2KE11375.100",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"jewelry",
+						"SND2KE11375.100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU1Iiwicm9sZSI6IjEiLCJuYmYiOjE2OTk1MzI3NDUsImV4cCI6MTY5OTUzMzM0NSwiaWF0IjoxNjk5NTMyNzQ1fQ.Qw3-petJjQvMVZybPuxHwxaZd093Fv-Gzdi7O-l4T_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"silverJewelryId\": \"primarykey123\",\r\n  \"silverJewelryName\": \"String\",\r\n  \"silverJewelryDescription\": \"string\",\r\n  \"metalWeight\": 0,\r\n  \"price\": 0,\r\n  \"productionYear\": 2023,\r\n  \"createdDate\": \"2023-11-09T12:29:35.893Z\",\r\n  \"categoryId\": \"CC0046\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7026/api/jewelry",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7026",
+					"path": [
+						"api",
+						"jewelry"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

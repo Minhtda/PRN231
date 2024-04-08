@@ -1,0 +1,15 @@
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

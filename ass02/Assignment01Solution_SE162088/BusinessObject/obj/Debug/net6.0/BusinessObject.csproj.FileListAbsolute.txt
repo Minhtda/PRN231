@@ -1,0 +1,14 @@
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+D:\FALL2023\prn231\ass02\Assignment01Solution_SE162088\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
